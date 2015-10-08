@@ -9,17 +9,6 @@ Usage
 -----
 <script> [options]\n\n"
 
-$verbose = false
-
-# Put if verbose enabled
-def vputs(text)
-  puts text if $verbose
-end
-
-# Print if verbose enabled
-def vprint(text)
-  puts text if $verbose
-end
 
 # Parse command line options
 def parse_options()
